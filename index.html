@@ -9,12 +9,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
   <style>
     :root {
-      font-size: 16px;        /* base size for rem */
+      font-size: 14px;
     }
 
     @media (max-width: 480px) {
       :root {
-        font-size: 18px;      /* a bit bigger on small phones */
+        font-size: 16px;
       }
     }
 
@@ -22,8 +22,8 @@
       background-color: black;
       color: white;
       font-family: "Xanh Mono", monospace;
-      font-size: 1rem;        /* relative to root */
-      line-height: 1.6;
+      font-size: 1rem;
+      line-height: 1.1;
       margin: 20px 16px;
       max-width: 600px;
       padding: 0;
@@ -35,7 +35,6 @@
       text-decoration: none;
       display: inline-block;
       padding: 4px 8px;
-      transition: 0.2s ease;
     }
 
     a:hover {
@@ -43,7 +42,6 @@
       color: black;
     }
 
-    /* Optional: small adjustment for very old iOS if you still see odd fonts */
     @supports (-webkit-touch-callout: none) {
       body {
         -webkit-text-size-adjust: 100%;
