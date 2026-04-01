@@ -2,29 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tup</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
   <style>
+    :root {
+      font-size: 16px;        /* base size for rem */
+    }
+
+    @media (max-width: 480px) {
+      :root {
+        font-size: 18px;      /* a bit bigger on small phones */
+      }
+    }
+
     body {
       background-color: black;
       color: white;
-      font-family: Xanh Mono, monospace;
-      font-size: 14px;
-      margin: 40px;
+      font-family: "Xanh Mono", monospace;
+      font-size: 1rem;        /* relative to root */
+      line-height: 1.6;
+      margin: 20px 16px;
+      max-width: 600px;
+      padding: 0;
+      box-sizing: border-box;
     }
 
     a {
       color: white;
       text-decoration: none;
       display: inline-block;
-      padding: 2px 4px;
+      padding: 4px 8px;
+      transition: 0.2s ease;
     }
 
     a:hover {
       background-color: white;
       color: black;
+    }
+
+    /* Optional: small adjustment for very old iOS if you still see odd fonts */
+    @supports (-webkit-touch-callout: none) {
+      body {
+        -webkit-text-size-adjust: 100%;
+      }
     }
   </style>
 </head>
@@ -32,43 +55,66 @@
 
   <div>tup</div>
   <br>
-  <div>Head of Visual Identity @ ICAW (International Council for Animal Welfare)
+  <div>
+    Head of Visual Identity @ ICAW (International Council for Animal Welfare)
     <br><br>
-    Graphic Designer, Music Producer, Anarchist</div>
-  <br>
-  <div> ‎ ‎ *<br>**<br><br>* <br>‎ *<br><br>‎ ‎  *</div>
+    Graphic Designer, Music Producer, Anarchist
+  </div>
+
+  <br><br>
+
+  <div>
+    *
+    <br>**
+    <br><br>
+    *
+    <br>
+    *
+    <br><br>
+    *
+  </div>
 
   <br><br>
 
   <div>Music</div>
   <br>
-  <a href="" target="_blank">‎ ‎ Subvert</a>
+  <a href="" target="_blank">Subvert</a>
   <br>
-  <a href="" target="_blank">‎ ‎ Bandcamp</a>
+  <a href="" target="_blank">Bandcamp</a>
   <br>
-  <a href="" target="_blank">‎ ‎ SoundCloud</a>
+  <a href="" target="_blank">SoundCloud</a>
   <br><br><br>
 
   <div>Graphic Works</div>
   <br>
-  <a href="" target="_blank">‎ ‎ Activism</a>
+  <a href="" target="_blank">Activism</a>
   <br>
-  <a href="" target="_blank">‎ ‎ Personal Projects</a>
+  <a href="" target="_blank">Personal Projects</a>
   <br><br><br>
 
   <div>Contact & Follow</div>
   <br>
-  <a href="" target="_blank">‎ ‎ Email</a>
+  <a href="" target="_blank">Email</a>
   <br>
-  <a href="" target="_blank">‎ ‎ Matrix</a>
+  <a href="" target="_blank">Matrix</a>
   <br>
-  <a href="" target="_blank">‎ ‎ Mastodon</a>
+  <a href="" target="_blank">Mastodon</a>
   <br>
-  <a href="https://www.are.na/tup" target="_blank">‎ ‎ Are.na</a>
+  <a href="" target="_blank">Are.na</a>
   <br><br>
 
-    <div>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ *<br> ‎ ‎ * ‎ *<br>‎ ‎ ‎ *<br>* <br><br>‎ ‎ ‎ ‎ ‎ *</div>
-  
+  <div>
+    *
+    <br>
+    *
+    *
+    <br>
+    *
+    <br>
+    *
+    <br><br>
+    *
+  </div>
 
 </body>
 </html>
