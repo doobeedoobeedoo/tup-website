@@ -13,11 +13,17 @@
       font-size: 14px;
     }
 
-    <!-- @media (max-width: 480px) {
+    @media (max-width: 480px) {
       :root {
         font-size: 16px;
       }
-    } -->
+    }
+
+    @supports (-webkit-touch-callout: none) {
+      body {
+        -webkit-text-size-adjust: 100%;
+      }
+    }
 
     body {
       background-color: black;
@@ -43,11 +49,6 @@
       color: black;
     }
     
-    <!-- @supports (-webkit-touch-callout: none) {
-      body {
-        -webkit-text-size-adjust: 100%;
-      }
-    } -->
   </style>
 </head>
 <body>
@@ -77,7 +78,7 @@
 
   <div>Work</div>
   <br>
-  ‎ <a href="" target="_blank">Animal Rights</a>
+  ‎ <a href="/animalrights.html" >Animal Rights</a>
   <br><br><br>
 
   <div>Follow</div>
